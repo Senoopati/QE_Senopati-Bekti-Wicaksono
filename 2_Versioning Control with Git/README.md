@@ -12,4 +12,4 @@ Langkah" :
    -Commit files
    -Push files
    -Branch (Untuk memungkinkan developer mengembangkan fitur)
-   -Update dan Mergeconfi
+   -Update dan Mergeconfig
