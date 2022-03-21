@@ -69,3 +69,4 @@ Cucumber membaca semacam ketentuan yang dapat dieksekusi, dimana ditulis menggun
 <img src="screenshot/Screenshot_3.png">
 <img src="screenshot/Screenshot_4.png">
 <img src="screenshot/Screenshot_5.png">
+<img src="screenshot/Screenshot_6.png">
