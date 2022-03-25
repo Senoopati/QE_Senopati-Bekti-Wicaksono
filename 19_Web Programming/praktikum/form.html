@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Buat Account Baru!</h1>
+    <h2>Sign Up Form</h2>
+    <table>
+        <tr>
+            <td>
+                <label for="firstName"><b>First Name : </b></label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" name="firstName" required />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="lastName"><b>Last Name :</b></label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" name="lastName" required />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Gender"><b>Gender : </b></label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="radio" id="male" name="gender" value="male" />
+                <label for="male">Male</label><br />
+                <input type="radio" id="female" name="gender" value="female" />
+                <label for="female">Female</label><br />
+                <input type="radio" id="other" name="gender" value="other" />
+                <label for="other">Other</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Nationality"><b>Nationality : </b></label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <select id="nalionality" name="nalionality">
+            <option value="Indonesia">Indonesia</option>
+            <option value="China">China</option>
+            <option value="Rusia">Rusia</option>
+          </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Language"> <b>Language :</b></label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" id="Bahasa" name="language" value="Bahasa" />
+                <label for="Bahasa">Bahasa Indonesia</label><br />
+                <input type="checkbox" id="English" name="language" value="English" />
+                <label for="English">English</label><br />
+                <input type="checkbox" id="other" name="language" value="other" />
+                <label for="other">Other</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="bio"> <b>Bio :</b></label>
+            </td>
+        </tr>
+        <tr>
+            <td><textarea name="bio" id="bio" cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="welcome.html"><button type="submit" class="signupbtn">Sign Up</button></a
+          >
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
